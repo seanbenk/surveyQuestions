@@ -6,7 +6,6 @@ const rows = [
 const quiz = document.getElementById("quiz");
 
 quiz.addEventListener("submit", (e) => {
-  e.preventDefault();
   const questionArr = ["Question Number"];
   const answerArr = ["Answer"];
   const inputs = document.querySelectorAll("input");
