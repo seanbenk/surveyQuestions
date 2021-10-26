@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+  background: #152238;
+}
+
+h1 {
+  padding: 5px 25px;
+}
+
+p {
+  padding: 0px 25px;
+  font-size: 18px;
+}
+
+h2 {
+  margin: 10px 25px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+#wrapper {
+  width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+
+input {
+  margin: 5px 30px;
+  padding: 10px 15px;
+}
+
+label {
+  font-size: 15px;
+}
+
+button {
+  font-size: 18px;
+  padding: 0px 25px;
+  margin: 30px 0;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  transform: translate(10%, 10%);
+}
+.button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#submit {
+  background: #152238;
+  padding: 10px 20px;
+}
+#reset {
+  background: #ffaa1d;
+  padding: 10px 20px;
+}
+#answer {
+  border: 1px dashed #ccc;
+  background: #eee;
+  padding: 10px;
+}
+
+#fileButton {
+  background: #152238;
+  padding: 10px 20px;
+}
