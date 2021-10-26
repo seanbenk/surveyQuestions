@@ -6,12 +6,10 @@ const rows = [
 const quiz = document.getElementById("quiz");
 
 quiz.addEventListener("submit", (e) => {
+  e.preventDefault();
   const questionArr = ["Question Number"];
   const answerArr = ["Answer"];
   const inputs = document.querySelectorAll("input");
-  // e.target.forEach((input) => {
-  //   console.log(input);
-  // });
   inputs.forEach((input) => {
     if (!input.checked) return;
     questionArr.push(input.name);
@@ -24,4 +22,5 @@ quiz.addEventListener("submit", (e) => {
 
   const encodedUri = encodeURI(csvContent);
   window.open(encodedUri);
+  window.location.reload();
 });
