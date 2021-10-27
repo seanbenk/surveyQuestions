@@ -13,7 +13,7 @@ quiz.addEventListener("submit", (e) => {
   inputs.forEach((input) => {
     if (!input.checked) return;
     questionArr.push(input.name);
-    answerArr.push(input.value);
+    answerArr.push(input.value[1]);
   });
 
   const csvContent =
